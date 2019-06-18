@@ -1,0 +1,21 @@
+<library path="src">
+  <class name="SeeScopeControl"
+         type="rqt_see_scope_control.see_scope_control.SeeScopeControl"
+         base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Graphical frontend for interacting with See Scope.
+    </description>
+    <qtgui>
+      <group>
+        <label>See Scope Tools</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to See Scope tools.</statustip>
+      </group>
+      <label>See Scope controller</label>
+      <icon>resource/scope.png</icon>
+      <statustip>
+        Monitor and send commands to See Scope.
+      </statustip>
+    </qtgui>
+  </class>
+</library>
